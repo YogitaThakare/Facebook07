@@ -18,9 +18,9 @@ public class Base {
 		WebDriver driver = new FirefoxDriver();
 		return driver;
 	}
-	public static WebDriver edgeBrowser() {
-		System.setProperty("webdriver.edge.driver","C:\\SeleniumAll\\msedgedriver.exe");
-		WebDriver driver = new EdgeDriver();
-		return driver;
-	}
+//	public static WebDriver edgeBrowser() {
+//		System.setProperty("webdriver.edge.driver","C:\\SeleniumAll\\msedgedriver.exe");
+//		WebDriver driver = new EdgeDriver();
+//		return driver;
+//	}
 }
