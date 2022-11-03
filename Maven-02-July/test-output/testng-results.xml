@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="0" failed="0" skipped="12">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-23T18:05:06 IST" name="Suite1234" finished-at="2022-10-23T18:05:28 IST" duration-ms="22379">
+    <groups>
+    </groups>
+    <test started-at="2022-10-23T18:05:06 IST" name="chromeTest" finished-at="2022-10-23T18:05:10 IST" duration-ms="4668">
+      <class name="TestPack.TestNGVerifyFriendsTab">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestPack.TestNGVerifyFriendsTab@15eb5ee5]" started-at="2022-10-23T18:05:06 IST" name="launchBrowser" finished-at="2022-10-23T18:05:10 IST" duration-ms="4279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@15eb5ee5]" started-at="2022-10-23T18:05:10 IST" name="beforeClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528510817" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@15eb5ee5]" started-at="2022-10-23T18:05:10 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528510824" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@15eb5ee5]" started-at="2022-10-23T18:05:10 IST" name="test1" finished-at="2022-10-23T18:05:10 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@15eb5ee5]" started-at="2022-10-23T18:05:10 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528510846" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@15eb5ee5]" started-at="2022-10-23T18:05:10 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528510879" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@15eb5ee5]" started-at="2022-10-23T18:05:10 IST" name="test2" finished-at="2022-10-23T18:05:10 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@15eb5ee5]" started-at="2022-10-23T18:05:10 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528510899" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@15eb5ee5]" started-at="2022-10-23T18:05:10 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528510903" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@15eb5ee5]" started-at="2022-10-23T18:05:10 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528510912" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPack.TestNGVerifyFriendsTab -->
+      <class name="TestPack.Verifyroomspage2">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestPack.Verifyroomspage2@1725dc0f]" started-at="2022-10-23T18:05:10 IST" name="launchBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528510568" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestPack.Verifyroomspage2@1725dc0f]" started-at="2022-10-23T18:05:10 IST" name="launchBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528510712" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:TestPack.Verifyroomspage2@1725dc0f]" started-at="2022-10-23T18:05:10 IST" name="openRoomsPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528510758" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method signature="verifyGoBackToToHelpCenterButton()[pri:0, instance:TestPack.Verifyroomspage2@1725dc0f]" started-at="2022-10-23T18:05:10 IST" name="verifyGoBackToToHelpCenterButton" finished-at="2022-10-23T18:05:10 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGoBackToToHelpCenterButton -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPack.Verifyroomspage2@1725dc0f]" started-at="2022-10-23T18:05:10 IST" name="logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528510777" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:TestPack.Verifyroomspage2@1725dc0f]" started-at="2022-10-23T18:05:10 IST" name="openRoomsPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528510784" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method signature="verifyToReturnToMessengerButton()[pri:0, instance:TestPack.Verifyroomspage2@1725dc0f]" started-at="2022-10-23T18:05:10 IST" name="verifyToReturnToMessengerButton" finished-at="2022-10-23T18:05:10 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToReturnToMessengerButton -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPack.Verifyroomspage2@1725dc0f]" started-at="2022-10-23T18:05:10 IST" name="logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528510797" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:TestPack.Verifyroomspage2@1725dc0f]" started-at="2022-10-23T18:05:10 IST" name="clearObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528510802" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.Verifyroomspage2@1725dc0f]" started-at="2022-10-23T18:05:10 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528510915" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPack.Verifyroomspage2 -->
+    </test> <!-- chromeTest -->
+    <test started-at="2022-10-23T18:05:11 IST" name="firefoxTest" finished-at="2022-10-23T18:05:20 IST" duration-ms="9874">
+      <class name="TestPack.TestNGVerifyFriendsTab">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestPack.TestNGVerifyFriendsTab@32eff876]" started-at="2022-10-23T18:05:11 IST" name="launchBrowser" finished-at="2022-10-23T18:05:20 IST" duration-ms="9649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@32eff876]" started-at="2022-10-23T18:05:20 IST" name="beforeClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528520856" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@32eff876]" started-at="2022-10-23T18:05:20 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528520861" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@32eff876]" started-at="2022-10-23T18:05:20 IST" name="test1" finished-at="2022-10-23T18:05:20 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@32eff876]" started-at="2022-10-23T18:05:20 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528520876" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@32eff876]" started-at="2022-10-23T18:05:20 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528520950" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@32eff876]" started-at="2022-10-23T18:05:20 IST" name="test2" finished-at="2022-10-23T18:05:20 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@32eff876]" started-at="2022-10-23T18:05:20 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528520958" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@32eff876]" started-at="2022-10-23T18:05:20 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528520962" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@32eff876]" started-at="2022-10-23T18:05:20 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528520965" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPack.TestNGVerifyFriendsTab -->
+      <class name="TestPack.Verifyroomspage2">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestPack.Verifyroomspage2@5e0826e7]" started-at="2022-10-23T18:05:20 IST" name="launchBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528520750" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestPack.Verifyroomspage2@5e0826e7]" started-at="2022-10-23T18:05:20 IST" name="launchBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528520767" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:TestPack.Verifyroomspage2@5e0826e7]" started-at="2022-10-23T18:05:20 IST" name="openRoomsPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528520788" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method signature="verifyGoBackToToHelpCenterButton()[pri:0, instance:TestPack.Verifyroomspage2@5e0826e7]" started-at="2022-10-23T18:05:20 IST" name="verifyGoBackToToHelpCenterButton" finished-at="2022-10-23T18:05:20 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGoBackToToHelpCenterButton -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPack.Verifyroomspage2@5e0826e7]" started-at="2022-10-23T18:05:20 IST" name="logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528520801" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:TestPack.Verifyroomspage2@5e0826e7]" started-at="2022-10-23T18:05:20 IST" name="openRoomsPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528520809" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method signature="verifyToReturnToMessengerButton()[pri:0, instance:TestPack.Verifyroomspage2@5e0826e7]" started-at="2022-10-23T18:05:20 IST" name="verifyToReturnToMessengerButton" finished-at="2022-10-23T18:05:20 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToReturnToMessengerButton -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPack.Verifyroomspage2@5e0826e7]" started-at="2022-10-23T18:05:20 IST" name="logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528520843" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:TestPack.Verifyroomspage2@5e0826e7]" started-at="2022-10-23T18:05:20 IST" name="clearObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528520850" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.Verifyroomspage2@5e0826e7]" started-at="2022-10-23T18:05:20 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528520968" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPack.Verifyroomspage2 -->
+    </test> <!-- firefoxTest -->
+    <test started-at="2022-10-23T18:05:21 IST" name="edgeTest" finished-at="2022-10-23T18:05:28 IST" duration-ms="7561">
+      <class name="TestPack.TestNGVerifyFriendsTab">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestPack.TestNGVerifyFriendsTab@158da8e]" started-at="2022-10-23T18:05:21 IST" name="launchBrowser" finished-at="2022-10-23T18:05:28 IST" duration-ms="7433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@158da8e]" started-at="2022-10-23T18:05:28 IST" name="beforeClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528528562" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@158da8e]" started-at="2022-10-23T18:05:28 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528528568" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@158da8e]" started-at="2022-10-23T18:05:28 IST" name="test1" finished-at="2022-10-23T18:05:28 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@158da8e]" started-at="2022-10-23T18:05:28 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528528593" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@158da8e]" started-at="2022-10-23T18:05:28 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528528597" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@158da8e]" started-at="2022-10-23T18:05:28 IST" name="test2" finished-at="2022-10-23T18:05:28 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@158da8e]" started-at="2022-10-23T18:05:28 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528528604" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@158da8e]" started-at="2022-10-23T18:05:28 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528528609" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.TestNGVerifyFriendsTab@158da8e]" started-at="2022-10-23T18:05:28 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528528614" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPack.TestNGVerifyFriendsTab -->
+      <class name="TestPack.Verifyroomspage2">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestPack.Verifyroomspage2@6aba2b86]" started-at="2022-10-23T18:05:28 IST" name="launchBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528528502" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestPack.Verifyroomspage2@6aba2b86]" started-at="2022-10-23T18:05:28 IST" name="launchBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528528510" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:TestPack.Verifyroomspage2@6aba2b86]" started-at="2022-10-23T18:05:28 IST" name="openRoomsPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528528530" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method signature="verifyGoBackToToHelpCenterButton()[pri:0, instance:TestPack.Verifyroomspage2@6aba2b86]" started-at="2022-10-23T18:05:28 IST" name="verifyGoBackToToHelpCenterButton" finished-at="2022-10-23T18:05:28 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGoBackToToHelpCenterButton -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPack.Verifyroomspage2@6aba2b86]" started-at="2022-10-23T18:05:28 IST" name="logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528528539" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:TestPack.Verifyroomspage2@6aba2b86]" started-at="2022-10-23T18:05:28 IST" name="openRoomsPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528528544" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method signature="verifyToReturnToMessengerButton()[pri:0, instance:TestPack.Verifyroomspage2@6aba2b86]" started-at="2022-10-23T18:05:28 IST" name="verifyToReturnToMessengerButton" finished-at="2022-10-23T18:05:28 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Javafullcourse\Maven-02-July\regressionSuit.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToReturnToMessengerButton -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPack.Verifyroomspage2@6aba2b86]" started-at="2022-10-23T18:05:28 IST" name="logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528528554" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:TestPack.Verifyroomspage2@6aba2b86]" started-at="2022-10-23T18:05:28 IST" name="clearObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528528558" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.Verifyroomspage2@6aba2b86]" started-at="2022-10-23T18:05:28 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1666528528620" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPack.Verifyroomspage2 -->
+    </test> <!-- edgeTest -->
+  </suite> <!-- Suite1234 -->
+</testng-results>
